@@ -1,0 +1,26 @@
+1. TDD ilə Unit testin fərqi nədir.
+cavab: Unit testing mueyyen menada adindan belli oldugu kimi proyektin ve ya layihenin
+mueyyen hisselerinin test olunmasi ucun nezerde tutulmus, python-da bize build in veziyyetde
+gelen bir aletdir. Biz Unit testi kodu yazmadan evvel, yazandan sonra ve ya kodu yazarken eyni
+anda yaza bilerik. Lakin TDD ele bir proqramlasdirma yanashmasidir ki, yazilan
+proqramin(layihenin) inkishafini ilk evvelde yazilan testler idare edir, testlere uygun
+kodlar(ve ya methodlar) yazilir. TDD-de bizim mutleq sekilde unit test, pytest ve ya diger
+basqa testing toolsdan istidade edilmesi sherti yoxdu, ixtiyari testing tools-dan istifade
+oluna biler
+
+TDD-nin mərhələlərini açıqlayın. (işləmə prinsipini)
+cavab: ilk olaraq yazacagimiz proqramin(app) her kicik funqsionalliqlarinin(methodlarinin)
+testlerinin dizayn olunmasi(dushunulmesi) ve yazilmasi ile baslayir, sonra yazilan testlere
+uygun olaraq kodlar yazilir, eger ehtiyac olarsa yeniden testler tekmillesdirilir(refaktoring).
+
+TDD-nin avantajları nələrdir.
+cavab: 1. Ilk evvelden bir cox yarana bilecek bug-lari gore bilmek.
+2. TDD-ye duzgun yanashilarsa daha yaxshi dizayn olunmus, daha seliqeli ve genislendirile
+bilen(extensible) kodlar yaza bilerik.
+3. Kodlarin inkishaf(refactoring) etdirilmesi daha rahat olur, bele ki, artiq proqramin testleri
+yazilmis hissesinin ishlek olmasina əminlik olur və nisbətən daha asanlıqla yeni əlavələr
+etmək olur.
+4. Hemde teamwork-un effektiv olmasina komek edir, beleki komanda uzvleri ve ya komandaya yeni
+gelen uzvler testleri incelemekle kodlari daha qisa zamanda anlaya bilerler.
+5. Eyni zamanda ferdi proqramcilar ucun de effektiv vasitedir, testleri yazmaq ucun vaxt serf
+etmesine baxmayaraq, debugging prosesine serf olunacaq vaxti olduqca qisaldir.  
